@@ -11505,10 +11505,6 @@ ol, ul {
   .swiper-container {
     display: none; } }
 
-@media (min-width: 768px) {
-  .mobile {
-    display: none; } }
-
 .cardComment {
   line-height: 1; }
 
@@ -11541,5 +11537,9 @@ ol, ul {
   .position-absoulate-lg {
     position: absolute;
     top: 200px; } }
+
+@media (min-width: 768px) {
+  .mobile {
+    display: none; } }
 
 /*# sourceMappingURL=all.css.map */
