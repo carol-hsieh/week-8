@@ -1,0 +1,29 @@
+a{
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+p{
+    margin: 0;
+}
+
+button:focus{
+    outline:none;
+}
+
+ol, ul {
+    padding-left: 0;
+    margin-bottom: 0;
+	list-style: none;
+}
+
+.material-icons{
+    // vertical-align: bottom;
+    vertical-align: middle;
+    font-size: 44px !important;
+}
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+}

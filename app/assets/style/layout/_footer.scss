@@ -1,0 +1,28 @@
+.bg-info{
+    background-color: #F0AD25;
+}
+
+.logo{
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/logo.svg);
+    display: block;
+    width: 121px;
+    height: 55px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+.footerInfo{
+    margin-top: 114px;
+    @include media-breakpoint-down(md) { 
+        margin-top: 0px;
+     }
+}
+.mb-6-none{
+    @include media-breakpoint-down(md) { 
+        margin-bottom: 0px !important;
+     }
+}
+.tel{
+    font-size: 18px !important;
+    
+}

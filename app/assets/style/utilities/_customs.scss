@@ -1,0 +1,19 @@
+.font-s{
+    font-size:0.875rem ; //14px
+    }
+.font-sm{
+    font-size: 1.25rem; //20px
+}    
+.font-m{
+    font-size: 1.75rem;//28px
+}
+.photo-center{
+    margin-top: -50px;
+}
+
+@media (min-width: 992px) { 
+    .position-absoulate-lg{
+       position: absolute;
+       top: 200px;
+    }
+ }
